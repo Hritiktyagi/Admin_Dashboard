@@ -1,0 +1,178 @@
+head {
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  
+  .body {
+      margin: 0;
+      padding: 0;
+  }
+  .float {
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-right: 2rem;
+  }
+  
+  
+  .typography-body{
+      text-align: center;
+      margin-top: 2rem;
+  }
+  .section-content-label
+  {
+      font-weight: 600;
+      margin-bottom: 0.5em;
+      background: rgba(0,0,0,0);
+      border-color: #bf4800;
+      color: #f56300;
+      /* margin-top:4rem; */
+  }
+  
+  .product-headline
+  {
+      font-size: 48px;
+      line-height: 1.08349;
+      font-weight: 600;
+      letter-spacing: -.003em;
+      font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+     
+  
+  }
+  
+  
+  
+  
+  .product-price
+  
+  {
+      font-size: 17px;
+      line-height: 1.47059;
+      font-weight: 400;
+      letter-spacing: -.022em;
+      font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  
+  .cta-links
+  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      margin-bottom: 2rem;
+  }
+  
+  .link-container > a
+  {
+      border-radius: 2rem;
+      width: 4rem;
+      text-decoration: none;
+  }
+  
+  .arrow-after-more
+  {
+      color: #0a58ca;
+  }
+  
+  .button:hover
+  {
+      text-decoration: underline;
+  }
+  
+  .body-margin-man
+  {
+      padding: 4rem;
+      margin-top: -4rem;
+      margin-bottom: -5rem;
+  }
+  
+  .image-wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4rem;
+  
+  }
+  
+  /* .macbook-air-image > img {
+      width: 100%;
+  } */
+  
+  
+  
+  .section-content-macbook-pro
+  {
+      background-color: #000;
+      color: white;
+      margin-top: 4rem;
+  }
+  
+  .typography-headline
+  {
+      font-size: 48px;
+      line-height: 1.08349;
+      font-weight: 600;
+      letter-spacing: -.003em;
+      color: #1d1d1f;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* margin-top: 3rem; */
+      font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+      background-color: #fafafa;
+  }
+  
+      .typography-headline > label {
+          margin-top: 3rem;
+      }
+  
+  
+  ul li{
+      text-decoration: none;
+      list-style-type: none;
+      /* margin-bottom: 2rem;
+      margin-top: 2rem; */
+      
+  }
+  
+  .compare-items
+  {
+      font-size: 21px;
+      line-height: 1.19048;
+      font-weight: 600;
+      letter-spacing: .011em;
+      font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  
+  }
+  
+  .table1
+  {
+      text-align: center;
+      display: flex;
+      background-color: #fafafa;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .compare-item-child
+  {
+      font-size: 14px;
+      line-height: 1.42859;
+      font-weight: 400;
+      letter-spacing: -.016em;
+      font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  
+  @media only screen and (max-width: 600px) {
+   
+  .figure > .img {
+    width: 100%;
+  }
+    
+      
+    }
